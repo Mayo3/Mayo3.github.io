@@ -135,7 +135,7 @@ p {
 }
 #two {
 	color: #0086f8;
-	left: 10em;
+	left: 8em;
 	font-weight: 500;
 }
 #studioM {
@@ -277,31 +277,31 @@ p {
 }
 #slikedron-1:hover {
   border: solid;
-  border-color: yellow;
+  border-color: blue;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
 #slikedron-2:hover {
   border: solid;
-  border-color: yellow;
+  border-color: blue;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
 #slikedron-3:hover {
   border: solid;
-  border-color: yellow;
+  border-color: blue;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
 #slikedron-4:hover {
   border: solid;
-  border-color: yellow;
+  border-color: blue;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
 #slikedron-5:hover {
   border: solid;
-  border-color: yellow;
+  border-color: blue;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
