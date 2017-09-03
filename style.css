@@ -7,6 +7,7 @@ body,html {
   overflow-x: hidden;
   width: 100%;
   min-width:1050px;
+  background: url("Slike/crnobelo1.png") no-repeat center center fixed;
 }
 header {
 	background-color: #FFA07A;
@@ -14,19 +15,24 @@ header {
 #wrapper {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;6
+  width: 100%;
 }
 
 #padding {
 	margin-left: 15%;
-  margin-right: 15%
+  margin-right: 15%;
 
 }
 #odzadjeslika {
    position: fixed; 
    bottom: 0px; 
    width: 100%; 
-   opacity: 0.1;
+   opacity: 0.1; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 0;
 }
 @media only screen and (max-width: 1026px) {
     #odzadjeslika {
@@ -98,7 +104,7 @@ nav img {
   z-index: 2;
 }
 #odzadjeNapis {
-	background-image: url("Slike/odzadje1.jpg");
+	background-image: url("Slike/odzadje1.JPG");
 	position: absolute;
 	opacity: 0.7;
 	width: 100%;
@@ -277,31 +283,31 @@ p {
 }
 #slikedron-1:hover {
   border: solid;
-  border-color: blue;
+  border-color: black;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
 #slikedron-2:hover {
   border: solid;
-  border-color: blue;
+  border-color: black;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
 #slikedron-3:hover {
   border: solid;
-  border-color: blue;
+  border-color: black;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
 #slikedron-4:hover {
   border: solid;
-  border-color: blue;
+  border-color: black;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
 #slikedron-5:hover {
   border: solid;
-  border-color: blue;
+  border-color: black;
   transform: scale(1.5,1.5);
   transition: 0.3s ease;
 }
@@ -310,8 +316,8 @@ p {
 /*********************************************************************************Galerija 3**************************************/  
 #galerija3 img{
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin-right: 20px;
   margin-bottom: 10px;
   -webkit-box-shadow: 36px 34px 66px -26px rgba(22,89,153,1);
@@ -322,36 +328,6 @@ p {
   -webkit-border-radius: 61px 61px 61px 61px;
   border: 3px solid #1d80f0;
 }
-#galerija3-1:hover {
-  width: 500px;
-  height: 500px;
-  transition-timing-function: ease-in-out;
-  transition:  2s;
-}
-#galerija3-2:hover {
-  width: 500px;
-  height: 500px;
-  transition-timing-function: ease-in-out;
-  transition:  2s;
-}
-#galerija3-3:hover {
-  width: 500px;
-  height: 500px;
-  transition-timing-function: ease-in-out;
-  transition:  2s;
-}
-#galerija3-4:hover {
-  width: 500px;
-  height: 500px;
-  transition-timing-function: ease-in-out;
-  transition:  2s;
-}
-#galerija3-5:hover {
-  width: 500px;
-  height: 500px;
-  transition-timing-function: ease-in-out;
-  transition:  2s;
-}
 
 
 
@@ -360,14 +336,14 @@ p {
 /***********************************************************************************2******************/
 .mySlides {
 	display:none;
-  height: auto;
-  width: auto;
-  margin-left: auto;
+  height: 100%;
+  width: 100%;
+  margin-left: 3.5em;
   margin-right: auto;
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 80%;
+  max-width: 100%;
   max-height: 50%;
   position: relative;
   background-color: #222;
@@ -417,14 +393,7 @@ p {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+
 
 /* The dots/bullets/indicators */
 .dot {
@@ -506,7 +475,7 @@ dl#simple-gallery dd {
   font-style: italic;
   color: #fff;
   padding-left: 0;
-  width: 40%;
+  width: 50%;
 }
 dl#simple-gallery dd img{
   width: 100%;
