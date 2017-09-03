@@ -64,8 +64,7 @@ function showSlides(n) {
 
 
 
-
-        function initMap() {
+        $(document).on("pageshow","#page", function initMap() {
         var myLatLng = {lat: 45.53070123559393, lng: 13.651008367342001};
 
         var map = new google.maps.Map(document.getElementById('map'), {
